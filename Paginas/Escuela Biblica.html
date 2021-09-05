@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Escuela Biblica</title>
+        <link rel="stylesheet" type="text/css" href="Estilos.css">
+        <link rel="icon" type="imagen/png" href="Logo de Escuela Biblica.jpeg">
+        <meta name="keywords" content="Iglesia, Urquiza, Dios, Adolecentes, Jovenes,Escuela,Niños"> 
+        <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1,0 maximum-scale=1,0, minimum-scale=1,0"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="banner">
+            <h1>ESCUELA BIBLICA</h1>
+        </div>
+ 
+        <header class="container">
+            <figure class="logo">
+                <a href="Principal.html">
+                    <img src="Imagenes/Logo de iglesia.png" alt="">
+                    </a>
+            </figure>
+            <nav>
+                <a href="Principal.html" class="item-options">Inicio</a>
+                <a href="Adolecentes.html" class="item-options">Adolecentes</a>
+                <a href="Jovenes.html" class="item-options">Jovenes</a>
+                <a href="Escuela Biblica.html" class="item-options">Escuela Biblica</a>
+                <a href="Reuniones Generales.html" class="item-options">Reuniones Generales</a>
+                <a href="" class="item-options">Predicaciones</a>
+            </nav>
+        </header>
+        <div class="container-2">
+            <div class="card">
+                <img src="Imagenes/Pintar.jpg">
+                <h4>Clase Roja</h4>
+                <a href="Clase Roja.html">Más Informacion</a>
+            </div>
+
+            <div class="card">
+                <img src="Imagenes/Jugando.jpg">
+                <h4>Clase Naranja</h4>
+                <a href="Clase Naranja.html">Más Informacion</a>
+            </div>
+
+            <div class="card">
+                <img src="Imagenes/Atencion.jpg">
+                <h4>Clase Azul</h4>
+                <a href="Clase Azul.html">Más Informacion</a>
+            </div>
+
+            <div class="card">
+                <img src="Imagenes/Pensando.jpg">
+                <h4>Los PRE</h4>
+                <a href="Los PRE.html">Más Informacion</a>
+            </div>
+        </div>
+
+    </body>
+<style>
+
+html, body{
+    margin:0;
+    padding: 0;
+}
+
+.titulo{
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container-2{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+}
+
+.container-2 .card{
+    width: 330px;
+    height:430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    border: solid 1px rgba(255,255,255,05);
+}
+
+.container-2.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.container-2 .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.ccontainer-2 .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container-2 .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color:#3498db;
+}
+
+body{
+    background: url(Imagenes/imagen\ de\ fondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+.container-2 .card a:hover{
+    color: black;
+    text-decoration:underline;
+}
+
+.banner {
+    width: 100%;
+    padding: 9rem 3rem;
+    text-align: center;
+    background: url(Imagenes/Fondo\ de\ slider.png);
+    background-blend-mode: soft-light;
+    background-color: rgba(0,0,0,.3);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box ;
+    background-blend-mode: soft-light;
+}
+
+.banner h1{
+    color: #f1f1f1;
+}
+
+.container{
+    width: 100%;
+    height: 55px;
+    background: #3d3d3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    width: 40px;
+    margin: 0;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.item-options{
+    color: #f1f1f1;
+    margin: 0 1.3rem; 
+    text-decoration: none;
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+    background-color:rgba(255,255,255,0.5);
+    border-radius: 40px;
+    margin-top: 30px;
+    width: 100%;    
+    height: 695px;
+}
+
+.item-options:hover{
+    color: black;
+    transition: 0.3s;
+    text-decoration:underline;
+}
+
+.article b{
+    color: #797979;
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+p{
+    font-family: 'Lobster', cursive;
+}
+
+</style>
